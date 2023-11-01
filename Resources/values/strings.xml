@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">First_Android_App</string>
+    <string name="app_text">Hello, Android!</string>
+	<string name="App_label">Calculator</string>
+	<string name="Num1">First Number</string>
+	<string name="Num2">Second Number</string>
+	<string name="Result">Final Result</string>
+	<string name="Add_Btn">Addition</string>
+	<string name="Sub_Btn">Subtraction</string>
+	<string name="Multi_Btn">Multiplication</string>
+	<string name="Div_Btn">Division</string>
+</resources>

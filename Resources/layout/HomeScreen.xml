@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#515151">
+    <TextView
+        android:text="@string/App_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/App_label_id" />
+    <TextView
+        android:text="@string/Num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/num1_label" />
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Num1_TextBox" />
+    <TextView
+        android:text="@string/Num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/num2_label" />
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Num2_TextBox" />
+    <TextView
+        android:text="@string/Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/Result_label" />
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Result_TextBox" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:text="@string/Add_Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Btn_add" />
+        <Button
+            android:text="@string/Sub_Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Btn_sub" />
+        <Button
+            android:text="@string/Multi_Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Btn_Mutli" />
+         <Button
+            android:text="@string/Div_Btn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Btn_Div" />
+     </LinearLayout>
+    
+</LinearLayout>
